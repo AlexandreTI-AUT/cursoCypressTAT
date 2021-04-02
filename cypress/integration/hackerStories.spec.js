@@ -165,7 +165,6 @@ describe('Hacker Stories', () => {
     })
   })
 })
-
 context('Errors', () => {
   it('shows "Something went wrong ..." in case of a server error', () => {
     cy.intercept(
